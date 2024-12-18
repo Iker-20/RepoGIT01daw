@@ -121,4 +121,14 @@ public class Empleado {
 	public void setSueldo(float sueldo) {
 		this.sueldo = sueldo;
 	}
+	
+	
+	//////////////////////////////////////toString////////////////////////////////////
+	@Override
+	public String toString() {
+		return "Empleado [dni=" + dni + ", Nombre completo=" + nombre + ", apellidos=" + apellidos + ", categ=" + categ
+				+ ", edad=" + edad + ", clubSocial=" + clubSocial + ", sueldo=" + sueldo + "]";
+	}
+	
+	
 }
